@@ -209,7 +209,7 @@
                 </td>
               </tr>
               <tr> 
-                <td width="75%" align="right">${Author}</td>
+                <td width="75%" align="right">${commendProduct.author}</td>
               </tr>
               <tr> 
                 <td width="75%"> 

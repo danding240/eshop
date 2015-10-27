@@ -28,6 +28,11 @@ public class Pager {
 	public int getFirstRow(){
 		return (this.currentPage-1)*this.pageRows;
 	}
+	
+	public int getLastRow() {
+		int rows = getFirstRow() + this.pageRows-1;
+		return rows > this.totalRows ? this.totalRows-1 : rows;
+	}
 
 	public int getTotalRows() {
 		return totalRows;
